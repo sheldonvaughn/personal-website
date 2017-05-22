@@ -1,0 +1,138 @@
+/* Color Palette
+#2B2D42 - dark blue
+#8D99AE - light blue
+#EDF2F4 - blue/white
+#EF233C - red
+/*Global Styles
+-----------------*/
+.btn{
+  text-decoration: none;
+  background: #EF233C;
+  color: white;
+  padding: 10px;
+  display: inline-block;
+
+}
+html{
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  color:#EF233C;
+}
+
+a:hover{
+  text-decoration: none;
+}
+.flex{
+  display: flex;
+}
+.flex-row{
+  flex-flow: row wrap;
+}
+.flex-column{
+  flex-direction: column;
+}
+.content-wrap{
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 10px 50px;
+  overflow: hidden;
+}
+.profile-img {
+  border-radius:50%;
+}
+
+h1, h2{
+  font-family: 'Caveat', sans-serif;
+  font-weight: 400;
+}
+h1{
+  font-size: 80px;
+}
+h2{
+  font-size:40px;
+}
+h3{
+  margin: 0;
+}
+.column-narrow {
+  width: 35%;
+  float: left;
+  padding-right: 3%;
+}
+.column-wide {
+  width: 62%;
+  float: left;
+}
+/*header and footer */
+header{
+  padding-top: 50px;
+  position: relative;
+}
+header, footer {
+  background-color:#2B2D42;
+  color:#8D99AE;
+}
+.download{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+header h1, header h2 {
+  color:#EDF2F4;
+}
+
+/* Nav styles */
+nav {
+  text-align: center;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  right: 0;
+}
+
+nav a{
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/*Work Experience
+---------------------*/
+.work{
+  background:#EDF2F4;
+}
+.job-description p:first-of-type{
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+h3 ~ p{
+  margin: 0;
+}
+
+/*education
+---------------------*/
+.education{
+  background:#8D99AE;
+}
+
+p + h3 {
+  margin-top: 30px;
+}
